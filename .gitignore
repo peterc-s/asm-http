@@ -1,0 +1,6 @@
+# make
+server.o
+server
+
+# constants
+constants.txt
