@@ -14,4 +14,6 @@ trace : server
 	strace ./server
 
 clean :
-	rm server.o;rm server;rm constants.txt
+	-rm server.o
+	-rm server
+	-rm constants.txt
